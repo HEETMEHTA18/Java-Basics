@@ -37,6 +37,6 @@ public class stringClass {
         System.out.println("A,B,C".split(","));
         StringBuffer sb = new StringBuffer("6,D,C");
         System.out.println(sb.toString());
-        System.out.println(sb.insert(0,'H'));
+        
     }
 }
