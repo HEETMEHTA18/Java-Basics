@@ -2,6 +2,8 @@ package Basics;
 
 import java.util.*;
 
+import Practical_3_3.Student;
+
 class Student {
     String id, name, branch;
     List<Course> courses = new ArrayList<>();
