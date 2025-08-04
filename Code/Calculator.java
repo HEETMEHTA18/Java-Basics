@@ -1,6 +1,6 @@
 public class Calculator {
     
-    public class Addition ()
+    public class Addition    ()
     {
     void add(int a,int b)
     {

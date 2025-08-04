@@ -1,5 +1,5 @@
 package Practical_3_3;
-public class Institue_Management {
+public class Mainc {
     int institute_code;
     public String institute_name;
     public final String location = "Charusat";
