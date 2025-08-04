@@ -1,3 +1,5 @@
+package Code;
+
 interface A
 {
     int a=20;
