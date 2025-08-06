@@ -1,13 +1,13 @@
 package Code;
 
-import java.util.Locale;
-import java.util.Arrays;
+// import java.util.Locale;
+// import java.util.Arrays;
 public class stringClass {
     public static void main(String[] args) {
      String s1="Heet Mehta";
      String s2="Heet";
      String s3 = new String("Heet");
-        String s6 = new String("Heet");
+        
      String s4 = s2;
 
          System.out.println(s1==s2);
