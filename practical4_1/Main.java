@@ -1,65 +1,67 @@
-class Wind {
-    void play() {
+package practical4_1;
+abstract class Instrument {
+    abstract void play();
+    abstract String what();
+    abstract void adjust();
+}
+
+class Wind extends Instrument {
+    public void play() {
         System.out.println("Wind instrument played");
     }
-    String what() {
+    public String what() {
         return "Wind";
     }
-    void adjust() {
+    public void adjust() {
         System.out.println("Instrument tuned properly");
     }
 }
 
-class Percussion {
-    void play() {
-        System.out.println("Percussion instrument played");
+class Percussion extends Instrument {
+    public void play() {
+        System.out.println("Percussion  played");
     }
-    String what() {
+    public String what() {
         return "Percussion";
     }
-    void adjust() {
-        System.out.println("Instrument tuned properly");
+    public void adjust() {
+        System.out.println("Instrument  properly");
     }
 }
 
-class Stringed {
-    void play() {
-        System.out.println("Stringed instrument played");
+class Stringed extends Instrument {
+    public void play() {
+        System.out.println("Stringed  played");
     }
-    String what() {
+    public String what() {
         return "Stringed";
     }
-    void adjust() {
-        System.out.println("Instrument tuned properly");
+    public void adjust() {
+        System.out.println("Instrument  properly");
     }
 }
 
-class Woodwind {
-    void play() {
-        System.out.println("Woodwind instrument played");
+class Woodwind extends Wind {
+    public void play() {
+        System.out.println("Woodwind  played");
     }
-    String what() {
+    public String what() {
         return "Woodwind";
     }
-    void adjust() {
-        System.out.println("Instrument tuned properly");
-    }
 }
 
-class Brass {
-    void play() {
-        System.out.println("Brass instrument played");
+class Brass extends Wind {
+    public void play() {
+        System.out.println("Brass  played");
     }
-    String what() {
+    public String what() {
         return "Brass";
-    }
-    void adjust() {
-        System.out.println("Instrument tuned properly");
     }
 }
 
 public class Main {
     public static void main(String[] args) {
+        
         Wind wind = new Wind();
         wind.play();
         System.out.println("Instrument name: " + wind.what());
@@ -72,11 +74,13 @@ public class Main {
         percussion.adjust();
         System.out.println();
 
+
         Stringed stringed = new Stringed();
         stringed.play();
         System.out.println("Instrument name: " + stringed.what());
         stringed.adjust();
         System.out.println();
+
 
         Woodwind woodwind = new Woodwind();
         woodwind.play();
