@@ -1,4 +1,5 @@
-public class Institue_Management implements Student {
+public class Institue_Management implements Student 
+{
         int institute_code= 0;
         public String institute_name=null;
         public final String location = "Charusat";
@@ -27,10 +28,13 @@ public class Institue_Management implements Student {
         }
         public void displayclass()
         {
-            System.out.println("This is a class method in Institue_Management throught interface Student");
+            // System.out.println("This is a class method in Institue_Management throught interface Student");
         }
         public static void main(String[] args) {
             Institue_Management institute = new Institue_Management(101, "Charusat University");
             institute.display();
+            institute.StringGetName("Charusat University");
+            institute.setName("PARUL UNIVERSITY");
+            institute.displayclass();
         }
 }

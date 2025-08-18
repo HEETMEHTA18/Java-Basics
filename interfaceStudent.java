@@ -1,4 +1,4 @@
-interface Student {
+public interface Student {
     public void displayclass();
     public void StringGetName(String name);
 
@@ -6,7 +6,7 @@ interface Student {
         System.out.println("Setting name in interface: " + name);
     }
 }
-public class interfaceStudent {
-
-
+public class interfaceStudent
+{
+    
 }
