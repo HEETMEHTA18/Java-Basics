@@ -30,11 +30,19 @@ public class Institue_Management implements Student
         {
             // System.out.println("This is a class method in Institue_Management throught interface Student");
         }
+        public static String getInstituteLocation() {
+            return "Gandhinagar";
+        }
         public static void main(String[] args) {
             Institue_Management institute = new Institue_Management(101, "Charusat University");
             institute.display();
             institute.StringGetName("Charusat University");
             institute.setName("PARUL UNIVERSITY");
             institute.displayclass();
+            System.out.println("Institute Location: " + getInstituteLocation());
+            System.out.println("Interface mehthod called ");
+            Student in = new Institue_Management();
+            // in.displayclass();
+            in.setName("New name added");
         }
 }
