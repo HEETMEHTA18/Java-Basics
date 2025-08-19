@@ -1,3 +1,4 @@
+package practical4_1.withinterface;
 public interface Student {
     public void displayclass();
     public void StringGetName(String name);
