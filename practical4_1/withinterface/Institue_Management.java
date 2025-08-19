@@ -1,3 +1,4 @@
+package practical4_1.withinterface;
 public class Institue_Management implements Student 
 {
         int institute_code= 0;
