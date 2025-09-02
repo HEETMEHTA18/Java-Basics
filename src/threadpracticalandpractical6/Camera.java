@@ -1,3 +1,4 @@
+package src.threadpracticalandpractical6;
 public class Camera implements Switchable, SensorEnabled {
     private boolean isOn;
     private boolean sensorEnabled;

@@ -1,3 +1,4 @@
+package src.threadpracticalandpractical6;
 // package ThreadDemo.Practical1;
 
 public class ThreadPractical1 {

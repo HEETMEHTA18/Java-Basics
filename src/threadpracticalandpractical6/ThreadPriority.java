@@ -1,3 +1,4 @@
+package src.threadpracticalandpractical6;
 // package ThreadDemo;
 
 public class ThreadPriority extends Thread {
