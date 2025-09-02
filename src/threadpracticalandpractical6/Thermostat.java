@@ -1,3 +1,4 @@
+package src.threadpracticalandpractical6;
 public class Thermostat implements Switchable, Schedulable {
     private boolean isOn;
     private String scheduledTime;

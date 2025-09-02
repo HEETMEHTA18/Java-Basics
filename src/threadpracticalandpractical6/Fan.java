@@ -1,3 +1,4 @@
+package src.threadpracticalandpractical6;
 public class Fan implements Switchable, Schedulable {
     private boolean isOn;
     private String scheduledTime;

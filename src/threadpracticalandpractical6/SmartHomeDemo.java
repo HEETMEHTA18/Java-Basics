@@ -1,3 +1,4 @@
+package src.threadpracticalandpractical6;
 public class SmartHomeDemo {
     public static void main(String[] args) {
         // Create devices
