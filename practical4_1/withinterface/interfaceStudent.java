@@ -1,13 +1,1 @@
-package practical4_1.withinterface;
-public interface Student {
-    public void displayclass();
-    public void StringGetName(String name);
-
-    default void setName(String name)  {
-        System.out.println("Setting name in interface: " + name);
-    }
-}
-public class interfaceStudent
-{
-
-}
+// This file is now intentionally left blank. The Student interface is defined in Student.java

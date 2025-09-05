@@ -1,8 +1,9 @@
-package Basics;
+
+package src.basics;
 
 import java.util.*;
 
-import Practical_3_3.Student;
+
 
 class Student {
     String id, name, branch;
