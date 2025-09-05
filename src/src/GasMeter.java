@@ -1,74 +1,46 @@
-// interface Diesel1
-// {
-//     float calculate(float x,float y,float z);
-// }
-// interface Diesel2
-// {
-//     float calculate(float x,float y,float z);
-// }
-// interface Diesel3
-// {
-//     float calculate(float x,float y,float z);
-// }
-//  class Refulledamount implements Disesel 1 ,Disesel 2,Disesel 3  {
-//     public float calculate(float x,float y,float z)
-//     {
-//         System.out.println(x+y);
-//     }
-// }
+package src;
 
-interface inputlvalue
-{
-    int fuletaken(float fuel);
+interface InputValue {
+    int fuelTaken(float fuel);
 }
-class f95 implements inputlvalue {
+
+class F95 implements InputValue {
     @Override
-    public int fuletaken(float fuel);
-    {
-        return 0;
+    public int fuelTaken(float fuel) {
+        return (int) fuel;
     }
-    public float value()
-    {
+    public float value(float fuel) {
         return fuel;
     }
 }
-class f98 implements inputlvalue {
 
+class F98 implements InputValue {
     @Override
-    public int fuletaken(float value);
-    {
-        return 0;
+    public int fuelTaken(float fuel) {
+        return (int) fuel;
     }
-    public float value()
-    {
+    public float value(float fuel) {
         return fuel;
     }
-
 }
-class diesel implements inputvalue
-{
 
+class Diesel implements InputValue {
     @Override
-    public int fuletaken(float value);
-    {
-        return 0;
+    public int fuelTaken(float fuel) {
+        return (int) fuel;
     }
-    public float total()
-    {
-
-
+    public float total(float fuel) {
+        return fuel;
     }
-
 }
 
 public class GasMeter {
-    public static float totalfuelused()
-    {
+    public static float totalFuelUsed(float fuel) {
         return fuel;
-
     }
     public static void main(String[] args) {
-
-        totalfuelused();
+        float fuel = 10.0f;
+        System.out.println("Total fuel used: " + totalFuelUsed(fuel));
     }
+}
 }

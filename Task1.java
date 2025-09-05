@@ -1,3 +1,4 @@
+package os_practicals;
 /*Today's Lecture Task
 Task1: Create a BankAccount class with a double balance field and two methods:
 deposit(double amount)

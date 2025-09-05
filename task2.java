@@ -1,3 +1,5 @@
+
+package os_practicals;
 /*Task2: Create a TicketSystem class with:
 An int ticketsAvailable field initialized to, say, 10.
 Two methods:
@@ -20,7 +22,7 @@ Repeat this loop several times.
 After all threads complete (use join()), print the final number of tickets available.
  */
 
-public class task2 {
+public class Task2 {
 
     private int ticketsAvailable = 10;
 

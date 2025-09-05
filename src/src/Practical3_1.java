@@ -1,3 +1,5 @@
+package src.basics;
+
 abstract class Staff {
     String name;
     int id;
