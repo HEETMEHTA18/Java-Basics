@@ -1,0 +1,3 @@
+package src.basics;
+
+// ...existing code from pratical2_1.java...
