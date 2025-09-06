@@ -1,3 +1,3 @@
-package src.basics;
+package basics;
 
 // ...existing code from pratical2_1.java...

@@ -1,3 +1,3 @@
-package src.basics;
+package basics;
 
 // ...existing code from practical1_1.java...
