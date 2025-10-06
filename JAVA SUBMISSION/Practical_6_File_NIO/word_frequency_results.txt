@@ -1,0 +1,17 @@
+WORD FREQUENCY ANALYSIS
+Generated on: Mon Oct 06 13:50:15 IST 2025
+=====================================
+
+Top 10 Most Frequent Words:
+Rank | Word                 | Frequency
+-------------------------------------------
+1    | java                 : 15
+2    | programming          : 5
+3    | is                   : 5
+4    | in                   : 4
+5    | for                  : 4
+6    | development          : 3
+7    | and                  : 3
+8    | applications         : 3
+9    | used                 : 2
+10   | features             : 2

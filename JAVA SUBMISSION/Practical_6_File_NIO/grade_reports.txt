@@ -1,0 +1,43 @@
+STUDENT GRADE REPORTS
+Generated on: Mon Oct 06 13:48:29 IST 2025
+=====================================
+
+========== GRADE REPORT ==========
+Name: Heet Mehta
+Roll Number: 101
+Marks: 85.0, 90.0, 88.0, 92.0, 87.0
+Average: 88.40
+Grade: A
+==================================
+
+========== GRADE REPORT ==========
+Name: Rahul Mehta
+Roll Number: 102
+Marks: 78.0, 82.0, 80.0, 85.0, 79.0
+Average: 80.80
+Grade: A
+==================================
+
+========== GRADE REPORT ==========
+Name: Krish Patel
+Roll Number: 103
+Marks: 92.0, 95.0, 91.0, 94.0, 93.0
+Average: 93.00
+Grade: A+
+==================================
+
+========== GRADE REPORT ==========
+Name: Amit Shaha
+Roll Number: 104
+Marks: 65.0, 70.0, 68.0, 72.0, 67.0
+Average: 68.40
+Grade: B
+==================================
+
+========== GRADE REPORT ==========
+Name: Om Mistry
+Roll Number: 105
+Marks: 55.0, 60.0, 58.0, 62.0, 59.0
+Average: 58.80
+Grade: C
+==================================

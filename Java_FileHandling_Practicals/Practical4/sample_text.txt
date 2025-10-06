@@ -1,0 +1,3 @@
+This is a sample text file. This file is used to test word frequency.
+The word frequency program counts the most frequent words in the file.
+This example helps understand how file handling works in Java.

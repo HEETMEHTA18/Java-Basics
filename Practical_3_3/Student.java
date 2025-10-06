@@ -1,5 +1,7 @@
 package Practical_3_3;
+//derived class
 
+import Student;
 
 public class Student extends Institue_Management {
    String Sid;
